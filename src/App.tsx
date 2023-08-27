@@ -9,11 +9,13 @@ import NotFound from "./pages/Errors/NotFound";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/marketplace" element={<Marketplace />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <div className="gradient_background">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </div>
   );
 }
 
