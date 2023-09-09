@@ -6,13 +6,20 @@ import HamburgerMenu from "./HamburgerMenu";
 const NavBar = () => {
   return (
     <>
-      <Flex bg="#fff0f5" w="100%" px="6" align="center" justify="space-between">
+      <Flex
+        bg="#1b1b1b"
+        w="100%"
+        px="6"
+        align="center"
+        justify="space-between"
+        position="fixed"
+      >
         <Link to="/">
           {" "}
           <img width="75px" height="75px" src="/src/assets/Iris-Logo.png" />
         </Link>
 
-        <HStack hideBelow={"lg"} spacing="150px">
+        <HStack hideBelow={"lg"} spacing="150px" color="white">
           <Link to="/"> Home </Link>
           <Link to="/Marketplace"> Effect Library </Link>
           <Link to="/"> Effect Builder </Link>
