@@ -1,8 +1,7 @@
-import { HStack, Flex, Button, IconButton } from "@chakra-ui/react";
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { HStack, Flex, Button } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import "./components.css";
+import HamburgerMenu from "./HamburgerMenu";
 
 const NavBar = () => {
   return (
@@ -21,12 +20,7 @@ const NavBar = () => {
         </HStack>
 
         <HStack>
-          <IconButton
-            aria-label={"Open Menu"}
-            size="md"
-            icon={<HamburgerIcon />}
-            hideFrom={"lg"}
-          />
+          <HamburgerMenu />
           <Button>Sign In</Button>
         </HStack>
       </Flex>
