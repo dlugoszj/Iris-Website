@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../../components/NavBar";
 import { Grid, GridItem, Text } from "@chakra-ui/react";
 import "/src/assets/css/fonts.css";

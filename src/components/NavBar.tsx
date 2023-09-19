@@ -1,5 +1,4 @@
 import { HStack, Flex, Button } from "@chakra-ui/react";
-import React from "react";
 import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 import "/src/assets/css/fonts.css";
