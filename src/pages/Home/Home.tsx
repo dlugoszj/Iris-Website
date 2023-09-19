@@ -3,6 +3,7 @@ import { Grid, GridItem, Text } from "@chakra-ui/react";
 import "/src/assets/css/fonts.css";
 import "./home.css";
 
+//Please
 const Home = () => {
   return (
     <Grid templateColumns="repeat(1, 1fr)">
