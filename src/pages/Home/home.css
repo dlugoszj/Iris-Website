@@ -1,0 +1,16 @@
+.home-welcome{
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image:linear-gradient(to right, #FF1CBF, #00FFE0);
+    margin: auto;
+    width:75vw;
+    font-family: Poppins;
+    padding-top: 100px;
+}
+.welcome-desc{
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+}

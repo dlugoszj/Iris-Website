@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import React from "react";
+import "./css/Menus.css";
 
 const HamburgerMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

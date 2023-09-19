@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../../components/NavBar";
 import { Grid, GridItem, Text } from "@chakra-ui/react";
 import "/src/assets/css/fonts.css";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -11,15 +12,8 @@ const Home = () => {
       </GridItem>
       <GridItem w="100vw" h="auto" bg="black" marginTop={75}>
         <Text
-          align="center"
           fontSize={{ base: "4xl", md: "7xl", lg: "8xl" }}
-          backgroundClip="text"
-          color="transparent"
-          bgGradient="linear-gradient(to right, #FF1CBF, #00FFE0)"
-          m="auto"
-          w="75vw"
-          className="font"
-          paddingTop="100px"
+          className="home-welcome"
         >
           Illuminate your life
         </Text>
@@ -28,30 +22,13 @@ const Home = () => {
         <br />
         <br />
         <br />
-        <Text
-          align="center"
-          fontSize={{ base: "xl", md: "5xl" }}
-          color="white"
-          className="font"
-        >
+        <Text fontSize={{ base: "xl", md: "5xl" }} className="welcome-desc">
           Iris empowers you to
         </Text>
-        <Text
-          align="center"
-          fontSize={{ base: "xl", md: "5xl" }}
-          color="white"
-          className="font"
-        >
-          {" "}
+        <Text fontSize={{ base: "xl", md: "5xl" }} className="welcome-desc">
           take control and design
         </Text>
-        <Text
-          align="center"
-          fontSize={{ base: "xl", md: "5xl" }}
-          color="white"
-          className="font"
-        >
-          {" "}
+        <Text fontSize={{ base: "xl", md: "5xl" }} className="welcome-desc">
           LEDs the way you want.
         </Text>
       </GridItem>
