@@ -14,6 +14,7 @@ import {
 import { Link } from "react-router-dom";
 import React from "react";
 import "./css/Menus.css";
+import logo from "../assets/Iris-Logo.png";
 
 const HamburgerMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -44,11 +45,7 @@ const HamburgerMenu = () => {
             <Center>
               <Link to="/" onClick={onClose}>
                 {" "}
-                <img
-                  width="75px"
-                  height="75px"
-                  src="./src/assets/Iris-Logo.png"
-                />
+                <img width="75px" height="75px" src={logo} />
               </Link>
             </Center>
           </DrawerHeader>

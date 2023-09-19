@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 import "/src/assets/css/fonts.css";
 import "./css/Menus.css";
+import logo from "../assets/Iris-Logo.png";
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
       <Flex className="nav-bar-home">
         <Link to="/">
           {" "}
-          <img width="75px" height="75px" src="./src/assets/Iris-Logo.png" />
+          <img width="75px" height="75px" src={logo} />
         </Link>
 
         <HStack hideBelow={"lg"} spacing="150px" color="white">
