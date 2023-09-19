@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url("/Users/jacekdlugosz/Iris-Website/src/assets/Poppins/Poppins-Bold.ttf") format("truetype");
+    src: url("./src/assets/Poppins/Poppins-Bold.ttf") format("truetype");
   }
 
 .font {

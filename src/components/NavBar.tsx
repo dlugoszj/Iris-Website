@@ -10,7 +10,7 @@ const NavBar = () => {
       <Flex className="nav-bar-home">
         <Link to="/">
           {" "}
-          <img width="75px" height="75px" src="/src/assets/Iris-Logo.png" />
+          <img width="75px" height="75px" src="./src/assets/Iris-Logo.png" />
         </Link>
 
         <HStack hideBelow={"lg"} spacing="150px" color="white">

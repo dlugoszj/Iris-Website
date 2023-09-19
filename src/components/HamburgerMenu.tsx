@@ -47,7 +47,7 @@ const HamburgerMenu = () => {
                 <img
                   width="75px"
                   height="75px"
-                  src="/src/assets/Iris-Logo.png"
+                  src="./src/assets/Iris-Logo.png"
                 />
               </Link>
             </Center>
