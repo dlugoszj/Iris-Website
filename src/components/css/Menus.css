@@ -9,9 +9,10 @@
     border-bottom: 1px;
     border-bottom-style:solid;
     border-bottom-color:#282828;
+    font-family: 'Poppins';
 }
 
-body{
+.font{
     font-family: 'Poppins';
 }
 

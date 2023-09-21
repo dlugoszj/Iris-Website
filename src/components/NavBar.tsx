@@ -17,7 +17,7 @@ const NavBar = () => {
         <HStack hideBelow={"lg"} spacing="150px" color="white">
           <Link to="/"> Home </Link>
           <Link to="/Marketplace"> Effect Library </Link>
-          <Link to="/"> Effect Builder </Link>
+          <Link to="/effectBuilder"> Effect Builder </Link>
           <Link to="/"> About </Link>
         </HStack>
 

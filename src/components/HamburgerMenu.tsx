@@ -52,19 +52,19 @@ const HamburgerMenu = () => {
 
           <DrawerBody>
             <VStack direction="row" mb="4" spacing="50px">
-              <Link to="/" onClick={onClose}>
+              <Link to="/" onClick={onClose} className="font">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to="/Marketplace" onClick={onClose}>
+              <Link to="/Marketplace" onClick={onClose} className="font">
                 {" "}
                 Effect Library{" "}
               </Link>
-              <Link to="/" onClick={onClose}>
+              <Link to="/" onClick={onClose} className="font">
                 {" "}
                 Effect Builder{" "}
               </Link>
-              <Link to="/" onClick={onClose}>
+              <Link to="/" onClick={onClose} className="font">
                 {" "}
                 About{" "}
               </Link>

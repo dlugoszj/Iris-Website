@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Marketplace from "./pages/Marketplace/Marketplace";
 import NotFound from "./pages/Errors/NotFound";
+import EffectBuilder from "./pages/Effect Builder/__test__/EffectBuilder";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/effectBuilder" element={<EffectBuilder />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
