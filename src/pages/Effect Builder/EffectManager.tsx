@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const EffectManager = () => {
   return <div className="eb-manager-view">EffectManager</div>;

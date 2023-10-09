@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const EffectEditor = () => {
   return <div className="eb-editor-view">EffectEditor</div>;

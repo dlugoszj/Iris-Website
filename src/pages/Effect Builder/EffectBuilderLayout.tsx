@@ -1,6 +1,6 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import "./effectBuilder.css";
-import React from "react";
+// import React from "react";
 import Room from "../../components/Room";
 import EffectManager from "./EffectManager";
 import EffectEditor from "./EffectEditor";
