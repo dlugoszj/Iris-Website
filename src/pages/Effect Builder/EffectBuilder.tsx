@@ -1,23 +1,22 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import React from "react";
-import NavBar from "../../../components/NavBar";
+import NavBar from "../../components/NavBar";
+import EffectBuilderLayout from "./EffectBuilderLayout";
 
 const EffectBuilder = () => {
   return (
     <Grid
       templateAreas={`"navbar navbar"
-    "room editor"
+    "back back"
+
     `}
-      templateColumns="repeat(2, 1fr)"
+      templateColumns="repeat(1, 1fr)"
     >
       <GridItem area={"navbar"}>
         <NavBar />
       </GridItem>
-      <GridItem pl="2" bg="pink.300" area={"room"} marginTop={75}>
-        Room
-      </GridItem>
-      <GridItem pl="2" bg="orange.300" area={"editor"} marginTop={75}>
-        Editor
+      <GridItem area={"back"} bg="black" w="100vw" h="100vh" paddingTop="80px">
+        <EffectBuilderLayout />
       </GridItem>
     </Grid>
   );

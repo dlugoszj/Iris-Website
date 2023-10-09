@@ -6,7 +6,7 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Marketplace from "./pages/Marketplace/Marketplace";
 import NotFound from "./pages/Errors/NotFound";
-import EffectBuilder from "./pages/Effect Builder/__test__/EffectBuilder";
+import EffectBuilder from "./pages/Effect Builder/EffectBuilder";
 
 function App() {
   return (
