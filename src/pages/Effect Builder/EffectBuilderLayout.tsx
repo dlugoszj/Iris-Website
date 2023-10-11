@@ -2,8 +2,8 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import "./effectBuilder.css";
 // import React from "react";
 import Room from "../../components/Room";
-import EffectManager from "./EffectManager";
-import EffectEditor from "./EffectEditor";
+import ActionManager from "./ActionManager";
+import ActionEditor from "./ActionEditor";
 
 const EffectBuilderLayout = () => {
   return (
@@ -20,10 +20,10 @@ const EffectBuilderLayout = () => {
           <Room />
         </GridItem>
         <GridItem area={"manager"}>
-          <EffectManager />
+          <ActionManager />
         </GridItem>
         <GridItem area={"editor"}>
-          <EffectEditor />
+          <ActionEditor />
         </GridItem>
       </Grid>
     </div>
