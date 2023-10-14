@@ -3,14 +3,50 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image:linear-gradient(to right, #FF1CBF, #00FFE0);
+
+    --bg-size: 400%;
+    --color-one: #FF1CBF;
+    --color-two: #00FFE0;
+    font-size: clamp(3rem, 25vmin, 8rem);
+    background: linear-gradient(
+                  90deg,
+                  var(--color-one),
+                  var(--color-two),
+                  var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+
     margin: auto;
-    width:75vw;
     font-family: Poppins;
     padding-top: 100px;
+    white-space: nowrap;
+    width: fit-content;
 }
+
+@keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+
+.home-welcome-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .welcome-desc{
     text-align: center;
     color: white;
     font-family: Poppins;
+    /* width: 30%; */
+}
+
+.welcome-desc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

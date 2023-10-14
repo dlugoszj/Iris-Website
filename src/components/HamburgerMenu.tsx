@@ -60,7 +60,7 @@ const HamburgerMenu = () => {
                 {" "}
                 Effect Library{" "}
               </Link>
-              <Link to="/" onClick={onClose} className="font">
+              <Link to="/effectBuilder" onClick={onClose} className="font">
                 {" "}
                 Effect Builder{" "}
               </Link>
