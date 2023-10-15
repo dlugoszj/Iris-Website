@@ -17,7 +17,7 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    animation: move-bg 8s infinite linear;
+    animation: move-bg 8s infinite linear, fadeIn-header 1s ease-in-out;
 
     margin: auto;
     font-family: Poppins-SemiBold;
@@ -25,6 +25,15 @@
     white-space: nowrap;
     width: fit-content;
 }
+
+@keyframes fadeIn-header {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 @keyframes move-bg {
     to {
@@ -42,8 +51,18 @@
     text-align: center;
     color: white;
     font-family: Poppins-Light;
+    animation: fadeIn-welcome-desc 750ms ease-in-out;
     /* width: 30%; */
 }
+
+@keyframes fadeIn-welcome-desc {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .welcome-desc-container{
     display: flex;
