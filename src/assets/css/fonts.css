@@ -23,8 +23,3 @@
   font-family: 'Poppins-Medium';
   src: url("../Poppins/Poppins-Medium.ttf") format("truetype");
 }
-
-@font-face {
-  font-family: 'Comfortaa';
-  src: url("../Comfortaa/Comfortaa-Regular.ttf") format("truetype");
-}
