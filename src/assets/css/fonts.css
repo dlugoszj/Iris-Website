@@ -1,9 +1,30 @@
 
 @font-face {
-    font-family: 'Poppins';
-    src: url("../Poppins/Poppins-Bold.ttf") format("truetype");
+    font-family: 'Poppins-Light';
+    src: url("../Poppins/Poppins-Light.ttf") format("truetype");
   }
 
-.font {
-    font-family: 'Poppins';
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("../Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url("../Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url("../Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../Comfortaa/Comfortaa-Regular.ttf") format("truetype");
 }
