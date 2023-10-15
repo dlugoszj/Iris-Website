@@ -10,7 +10,7 @@ const Home = () => {
         <NavBar />
       </GridItem>
       <GridItem w="100vw" h="auto" bg="black" marginTop={75}>
-        <div classname="home-welcome-container">
+        <div className="home-welcome-container">
         <Text
           fontSize={{ base: "4xl", md: "7xl", lg: "8xl" }}
           className="home-welcome"
