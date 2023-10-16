@@ -13,3 +13,15 @@ export enum LEDActionType {
     SOLID,
     SHIFT
 }
+
+export const getActionTypeList = (): LEDActionType[] => {
+    return [
+        LEDActionType.GRADIENT,
+        LEDActionType.SOLID,
+        LEDActionType.SHIFT
+    ];
+}
+
+export const getActionTypeSet = (): Set<LEDActionType> => {
+    return new Set(getActionTypeList());
+}

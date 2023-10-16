@@ -20,9 +20,7 @@ const Home = () => {
         </div>
         <div className="welcome-desc-container">
           <Text fontSize={{ base: "xl", md: "5xl" }} className="welcome-desc" w={{ base: "50%", "2xl": "30%" }}>
-            Iris empowers you to
-            take control and design
-            LEDs the way you want.
+          Unlock the power of Iris LEDs with our open-source lighting platform.
           </Text>
         </div>
       </GridItem>
